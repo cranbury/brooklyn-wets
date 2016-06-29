@@ -14,6 +14,7 @@ body #page {
 a {
   text-decoration: none;
   outline: none;
+  cursor: pointer;
 }
 a:active {
   background: none;
@@ -40,7 +41,7 @@ img {
     height: 212px;
     margin: 0px 0 0;
     padding: 0;
-    width: 320px;
+    width: 220px;
 }
 #header div a.logo img {
   max-height: 100%;
@@ -75,7 +76,7 @@ img {
   padding: 0;
   text-align: center;
   text-transform: uppercase;
-  width: auto;
+  min-width: auto;
 }
 #header div ul li.selected a, #header div ul li.selected a:hover {
   color: rgb(245,218,41);

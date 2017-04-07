@@ -732,3 +732,16 @@ img {
 #footer div .connect a.twitter:hover {
   background-position: -30px -90px;
 }
+ul.youth li {
+  color: #FFFFFF;
+  display: block;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 48px;
+  margin: 0 auto 15px;
+  padding: 18px 0 0;
+  text-align: center;
+  width: 611px;
+}

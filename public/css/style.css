@@ -295,7 +295,6 @@ img {
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 0.01em;
-  line-height: 48px;
   margin: 0 auto 37px;
   padding: 0;
   text-align: center;
@@ -732,7 +731,7 @@ img {
 #footer div .connect a.twitter:hover {
   background-position: -30px -90px;
 }
-ul.youth li {
+ul.women li {
   color: #FFFFFF;
   display: block;
   font-family: Arial;

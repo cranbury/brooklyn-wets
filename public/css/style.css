@@ -664,28 +664,38 @@ img {
 #footer {
   background-color: #111111;
   margin: 0;
-  min-height: 122px;
+  /* min-height: 122px; */
   padding: 0;
   width: 100%;
 }
-#footer div {
+/* #footer div {
   margin: 0 auto;
   max-width: 940px;
   overflow: hidden;
   padding: 47px 10px 42px;
+} */
+#footer .social-media {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0 10px;
+}
+#footer .mark {
+  padding: 5px 0;
 }
 #footer div p {
   color: #FFFFFF;
-  float: left;
+  /* float: left; */
   font-family: Arial;
   font-size: 15px;
   font-weight: normal;
   line-height: 15px;
   margin: 0;
   padding: 5px 0 0;
-  text-align: left;
+  /* text-align: left; */
   text-transform: none;
-  width: 400px;
+  width: 100%;
+  text-align: center;
 }
 #footer div .connect {
   display: block;

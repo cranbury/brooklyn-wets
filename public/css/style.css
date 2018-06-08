@@ -176,9 +176,9 @@ img {
 }
 #body.home div.body {
   background: url(../images/bg-transparent2.png) repeat;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  width: 100%;
+  width: 75%;
 }
 #body.home div.body div {
   background: none;
@@ -186,7 +186,7 @@ img {
   max-width: 960px;
   padding: 54px 0 86px;
 }
-#body.home div.body div h1 {
+#body.home .body .title h1 {
   background: url(../images/bg-border1.gif) no-repeat center bottom;
   color: #FFFFFF;
   font-family: 'Arial Black';
@@ -198,7 +198,7 @@ img {
   text-align: center;
   text-transform: uppercase;
 }
-#body.home div.body div p {
+#body.home .body .title p {
   background: url(../images/bg-border1.gif) no-repeat center bottom;
   color: #FFFFFF;
   display: block;
@@ -288,7 +288,7 @@ img {
 #body.polosinglepost div p {
   margin: 0 auto 10px;
 }
-#body div p {
+#body .body .about-us p, #body .body .women p {
   color: #FFFFFF;
   display: block;
   font-family: Arial;
@@ -332,7 +332,7 @@ img {
 #body div p a:hover {
   color: rgb(245,218,41);
 }
-#body div h2 {
+.body .about-us h2 {
   color: #FFFFFF;
   font-family: arial;
   font-size: 20px;

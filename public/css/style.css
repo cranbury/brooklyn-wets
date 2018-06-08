@@ -664,21 +664,18 @@ img {
 #footer {
   background-color: #111111;
   margin: 0;
-  /* min-height: 122px; */
   padding: 0;
   width: 100%;
 }
-/* #footer div {
-  margin: 0 auto;
-  max-width: 940px;
-  overflow: hidden;
-  padding: 47px 10px 42px;
-} */
 #footer .social-media {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   padding: 20px 0 10px;
+}
+i.fa {
+  font-size:48px;
+  color:white;
 }
 #footer .mark {
   padding: 5px 0;
@@ -753,4 +750,9 @@ ul.women li {
   padding: 18px 0 0;
   text-align: center;
   width: 611px;
+}
+@media only screen and (max-width: 426px) {
+  #footer div p {
+    font-size: 12px;
+  }
 }

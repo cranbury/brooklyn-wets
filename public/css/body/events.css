@@ -1,0 +1,53 @@
+#body.eventssinglepost div img {
+  display: block;
+  float: left;
+  margin: 72px 28px 0 90px;
+  padding: 0;
+  width: auto;
+}
+#body.eventssinglepost div div {
+  background: none;
+  float: left;
+  margin: 76px 0 0;
+  max-width: none;
+  padding: 0 0 349px;
+  width: 522px;
+}
+#body.eventssinglepost div div h1 {
+  background: none;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+  margin: 0 0 13px;
+  padding: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+#body.eventssinglepost div div p {
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  margin: 0 0 48px;
+  padding: 0;
+  text-align: left;
+  width: auto;
+}
+#body.eventssinglepost div div p a {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+#body.eventssinglepost div div p a:hover {
+  color: rgb(245,218,41);
+}

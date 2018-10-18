@@ -1,0 +1,144 @@
+#body.home div {
+  background: none;
+  margin: 0;
+  max-width: none;
+  padding: 0 0 54px;
+  width: 100%;
+}
+#body.home div.header div {
+  background: none;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 74px 0 0;
+}
+#body.home div.header div h1{
+  background: none;
+  color: rgb(79,157,220);
+  display: block;
+  font-family: 'Work Sans';
+  font-size: 110px;
+  font-weight: bold;
+  line-height: 96px;
+  margin: 0 auto 32px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 89.5833%;
+}
+#body.home div.header div span {
+  display: block;
+  margin: 0 auto 52px;
+  max-width: 350px;
+  overflow: hidden;
+  padding: 0;
+  width: 37.4583%;
+}
+#body.home div.header div span a.email {
+  border: 5px solid #000000;
+  color: #000000;
+  display: block;
+  float: left;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  height: 47px;
+  line-height: 47px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 63.142857142857%;
+}
+#body.home div.header div span a.signup {
+  border: 5px solid #000000;
+  border-left: none;
+  color: #000000;
+  display: block;
+  float: left;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  height: 47px;
+  line-height: 47px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 32.571428571429%;
+}
+#body.home div.header div img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 97.9167%;
+}
+#body.home div.body {
+  background: url(../images/bg-transparent2.png) repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#body.home div.body div {
+  background: none;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 54px 0 86px;
+}
+#body.home div.body div h1 {
+  background: url(../images/bk-transparent2) no-repeat center bottom;
+  color: #FFFFFF;
+  font-family: 'Arial Black';
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 0 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#body.home div.body div p {
+  background: url(../images/bg-border1.gif) no-repeat center bottom;
+  color: #FFFFFF;
+  display: block;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  line-height: 48px;
+  margin: 12px auto 0;
+  padding: 0 0 12px;
+  text-align: center;
+  width: 63.6458%;
+}
+#body.home div.body div p a {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+#body.home div.body div p a:hover {
+  color: rgb(245,218,41);
+}
+#body.home div.body div a.more {
+  border: 5px solid #FFFFFF;
+  color: #FFFFFF;
+  display: block;
+  font-family: 'Arial Black';
+  font-size: 20px;
+  font-weight: normal;
+  height: 47px;
+  line-height: 47px;
+  margin: 30px auto 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 230px;
+}
+#body.home div.body div a.more:hover {
+  background-color: #ffffff;
+  color: rgb(245,218,41);
+}

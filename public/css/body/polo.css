@@ -1,0 +1,23 @@
+#body.polo div {
+  padding: 58px 0 161px;
+}
+
+#body.polosinglepost div img {
+  display: block;
+  margin: 68px auto 73px;
+  padding: 0;
+  width: auto;
+}
+#body.polosinglepost div h3 {
+  padding: 17px 0 0;
+}
+#body.polosinglepost div h3 span {
+  padding: 0 0 12px;
+}
+#body.polosinglepost div p {
+  margin: 0 auto 10px;
+}
+
+#body.polo div p {
+  margin: 0 auto 48px;
+}

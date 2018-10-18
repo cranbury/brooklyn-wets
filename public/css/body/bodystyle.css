@@ -1,20 +1,12 @@
 
 /*----------------------------------------body-home-styles---------------------------------------*/
-#body.container {
-  margin: 30px 30px 0 30px;
-  background: linear-gradient(140deg, white, #dfe9f3);
-  border-radius: 15px;
-  min-height: auto;
+body.container {
+  background: linear-gradient(130deg, #FFFEFF, #7DE2FC);
 }
 
 /*----------------------------------------body-styles---------------------------------------*/
-#body div {
-  max-width: 960px;
-  overflow: hidden;
-  padding: 58px 0 4px;
-}
 
-#body div h1 {
+body h1 {
   /*background: url(../images/bg-border2.gif) no-repeat center bottom;*/
   color: rgb(245,218,41);
   font-family: 'Arial Black';
@@ -26,14 +18,14 @@
   text-align: center;
   text-transform: uppercase;
 }
-#body div img {
+body img {
   display: block;
   margin: 68px auto 47px;
   padding: 0;
   width: auto;
 }
 
-#body div p {
+body p {
   color: #FFFFFF;
   display: block;
   font-family: Arial;
@@ -45,7 +37,7 @@
   text-align: center;
   width: 765px;
 }
-#body div p span {
+/*body p span {
   color: #FFFFFF;
   display: block;
   font-family: Arial;
@@ -56,7 +48,7 @@
   line-height: 48px;
   padding: 39px 0;
 }
-#body div p span a {
+body p span a {
   color: #FFFFFF;
   font-family: Arial;
   font-size: 16px;
@@ -64,7 +56,7 @@
   font-weight: bold;
   line-height: 48px;
 }
-#body div p a {
+body p {
   color: #ffffff;
   font-family: Arial;
   font-size: 16px;
@@ -74,10 +66,10 @@
   padding: 0;
   text-decoration: underline;
 }
-#body div p a:hover {
+body p a:hover {
   color: rgb(245,218,41);
 }
-#body div h2 {
+body h2 {
   color: #FFFFFF;
   font-family: arial;
   font-size: 20px;
@@ -88,7 +80,7 @@
   text-align: center;
   text-transform: none;
 }
-#body div ul.gallery {
+body ul.gallery {
   display: inline-block;
   list-style: none outside none;
   margin: 0 0 76px;
@@ -96,20 +88,20 @@
   padding: 72px 0 0;
   width: 100%;
 }
-#body div ul.gallery li {
+body ul.gallery li {
   border: none;
   float: left;
   margin: 0 10px;
   padding: 0;
   width: 300px;
 }
-#body div ul.gallery li a {
+body ul.gallery li a {
   display: block;
   margin: 0;
   padding: 0;
   width: auto;
 }
-#body div ul.gallery li a img {
+body ul.gallery li a img {
   display: block;
   float: none;
   margin: 0 auto;
@@ -117,7 +109,7 @@
   height: 100%;
   width: auto;
 }
-#body div h3 {
+body h3 {
   background: url(../images/bg-border1.gif) no-repeat center top;
   color: #FFFFFF;
   display: block;
@@ -131,7 +123,7 @@
   text-align: center;
   width: 611px;
 }
-#body div h3 span {
+body h3 span {
   background: url(../images/bg-border1.gif) no-repeat center bottom;
   display: block;
   margin: 0;
@@ -139,18 +131,18 @@
   width: auto;
 }
 
-#body div ul {
+body ul {
   display: inline-block;
   list-style: none outside none;
   margin: 0;
   max-width: 780px;
   padding: 72px 90px 49px;
 }
-#body div ul li:first-child {
+body ul li:first-child {
   border: none;
   padding: 0 0 0 0;
 }
-#body div ul li {
+body ul li {
   border-top: 2px solid #363636;
   display: block;
   margin: 0;
@@ -158,14 +150,14 @@
   padding: 40px 0 0;
   width: auto;
 }
-#body div ul li img {
+body ul li img {
   display: block;
   float: left;
   margin: 0 28px 0 0;
   padding: 0;
   width: auto;
 }
-#body div ul li div {
+body ul li div {
   background: none;
   float: left;
   margin: 0;
@@ -174,7 +166,7 @@
   padding: 6px 0 0;
   width: 522px;
 }
-#body div ul li div h1 {
+body ul li div h1 {
   background: none;
   color: #FFFFFF;
   font-family: Arial;
@@ -187,7 +179,7 @@
   text-transform: uppercase;
   width: auto;
 }
-#body div ul li div p {
+body ul li div p {
   color: #FFFFFF;
   font-family: Arial;
   font-size: 16px;
@@ -199,7 +191,7 @@
   text-align: left;
   width: auto;
 }
-#body div ul li div p a {
+body ul li div p a {
   color: #ffffff;
   font-family: Arial;
   font-size: 16px;
@@ -209,10 +201,10 @@
   padding: 0;
   text-decoration: underline;
 }
-#body div ul li div p a:hover {
+body ul li div p a:hover {
   color: rgb(245,218,41);
 }
-#body div ul li div a.more {
+body ul li div a.more {
   border: 2px solid #FFFFFF;
   color: #FFFFFF;
   display: block;
@@ -228,7 +220,7 @@
   text-transform: uppercase;
   width: 136px;
 }
-#body div ul li div a.more:hover {
+body ul li div a.more:hover {
   background-color: rgb(245,218,41);
   border: none;
   height: 38px;

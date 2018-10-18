@@ -15,12 +15,11 @@
       %link{ :rel => "stylesheet", :href => "https://use.fontawesome.com/releases/v5.4.1/css/all.css"}
       %script{:src => "js/mobile.js", :type => "text/javascript"}
     %title Home - BK Wets
-
-  %body
-    #header.container
+  %div
+    %header.container
       %a{:href => "/index", :class => "logo"}
         %img{:src => "images/bk-wets-logo.jpg", :alt =>""}
-      %ul#menu
+      %ul
         %li.selected
           %a{:href => "/index"} Home
         %li
@@ -35,8 +34,7 @@
         %li
           %a{:href => "/whiteboard"}
             %i{:class => "fas fa-volleyball-ball fa-3x"}
-
-    #body.container
+    %body.container
 
     #footer.container
     2017 by Brooklyn Wets. All rights reserved.

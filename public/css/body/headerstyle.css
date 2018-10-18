@@ -1,40 +1,39 @@
 /*----------------------------------------header-styles---------------------------------------*/
-#header.container {
-  margin: 30px 30px 0 30px;
-  background: linear-gradient(45deg, white, #dfe9f3);
-  border-radius: 15px;
-  min-height: 60px;
-  padding: 100px;
+header.container {
+  margin: 0px 0px 0 30px;
+  background: linear-gradient(45deg, white, #7DE2FC);
+  border-radius: 8px;
+  min-height: 40px;
+  padding: 40px;
 }
-#header a.logo {
+header a.logo {
   display: block;
   float: left;
   height: 99px;
   width: auto;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 0;
 }
-#header a.logo img {
+header a.logo img {
   max-height: 100%;
   display: block;
   width: auto;
+  margin: 0 0 0 0;
 }
-#header ul {
-  display: block;
-  float: left;
+header ul {
   list-style: none outside none;
   font-family: "Roboto";
   font-weight: bold;
   font-size: 19px;
   letter-spacing: 2.8px;
 }
-#header ul li {
+header ul li {
   display: inline-block;
   *float: left; /* Needed for IE7 and old versions */
   margin: 0 0 0 0px;
-  padding: 0 0 0 130px;
+  padding: 0 0 0 120px;
   width: auto;
 }
-#header ul li a {
+header ul li a {
   color: #000000;
   margin: 0;
   padding: 0;
@@ -42,15 +41,15 @@
   text-transform: uppercase;
   min-width: auto;
 }
-#header ul li.selected a{
-  color: #f9d423;
+header ul li.selected a{
+  color: #4f9ddc;
 }
-#header ul li a:hover {
-  color: #f9d423;
+header ul li a:hover {
+  color: #4f9ddc;
 }
-#header ul li ul {
+header ul li ul {
   display: none;
 }
-#header span#mobile-navigation, #header span#mobile-submenu, #header div ul li ul {
+header span#mobile-navigation, #header span#mobile-submenu, #header div ul li ul {
   display: none;
 }

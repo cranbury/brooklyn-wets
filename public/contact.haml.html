@@ -22,21 +22,49 @@
 
       -# %link{ :rel => "stylesheet", :href => "css/mobile.css"}
       -# %script{:src => "js/mobile.js", :type => "text/javascript"}
-    %title Home - BK Wets
+    %title Contact us
   %body.encloser
     %nav.container
       %a.item{:href => "/index"}
         %img{:src => "images/bk-wets-logo.jpg", :alt =>""}
-      %a.item.selected{:href => "/index"} Home
-      %a.item{:href => "/about"} About
+      %a.item{:href => "/index"} Home
+      %a.item.selected{:href => "/about"} About
       %a.item{:href => "/women"} Women
       %a.item{:href => "/events"} Events
-      %a.item{:href => "/contact"}
+      %a.item.selected{:href => "/contact"}
         %i{:class => "fas fa-address-card fa-3x"}
       %a.item{:href => "/whiteboard"}
         %i{:class => "fas fa-volleyball-ball fa-3x"}
   %div.container-a
   %div.container-a
-  hola
+    %h1.text-item Saturdays at 2pm
+    %img.item{:src => "/images/contact1.png", :alt => "us"}
+    %p.text-item
+      ADDRESS
+      261 Bedford Ave, Brooklyn, NY 11211
+  %div.container-a
+    %h1.text-item Beginner Friendly Mondays at 6pm ADDRESS
+    %p.text-item 232 W 60th St, New York, NY 10023
+    %img.item{:src => "/images/contact2.png", :alt => "us"}
+
+  %div.container-a
+    %h1.text-item Email
+    -# mailto:info@brooklynwets.com?Subject=Water%20Polo
+    %p.text-item info@brooklynwets.com
+    %img.item{:src => "/images/contact5.png", :alt => "us"}
+  %div.container-a
+    %img.item{:src => "/images/contact4.png", :alt => "us"}
+    %h1.text-item CONTRIBUTE
+    -# https://www.generosity.com/sports-fundraising/brooklyn-wets-water-polo-equipment
+    %p.text-item Crowdfunding Campaign
+  %div.container-a
+    %h1.text-item MEETUP JOIN THE BK WETS NOW
+    -# http://www.meetup.com/New-York-Water-Polo-Meetup/">Our meetup page
+    %img.item{:src => "/images/contact3.png", :alt => "us"}
+    %p.text-item All levels are welcome. Rec Center Membership is required.
+    -# https://www.nycgovparks.org/programs/recreation-centers/membership Rec Membership Info
+
+    -# %iframe https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1361967857847!2d-73.96257888459498!3d40.71501817933152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259608942751b%3A0x3a85b95850bbd7a2!2sMetropolitan+Recreation+Center!5e0!3m2!1sen!2sus!4v1466816902978"
+    -# %iframe https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.5721163920657!2d-73.99085078464388!3d40.77143484191432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585c023c3be7%3A0x11d0cc87326d1256!2sGertrude+Ederle+Recreation+Center!5e0!3m2!1sen!2sus!4v1491440684777"
   %footer.container
-  2017 by Brooklyn Wets. All rights reserved.
+    2017 by Brooklyn Wets. All rights reserved.

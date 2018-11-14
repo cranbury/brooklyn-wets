@@ -1,5 +1,5 @@
 /* Website template by freewebsitetemplates.com */
-window.onload = function(){
+/*window.onload = function(){
       var getNavi = document.getElementById('menu');
       document.getElementById('mobile-navigation').onclick = function(){
         var a = getNavi.getAttribute('style');
@@ -34,3 +34,4 @@ window.onload = function(){
         }
       };
     };
+*/

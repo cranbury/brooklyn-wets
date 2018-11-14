@@ -1,24 +1,27 @@
 !!! 5
 %html
   %head
-    %meta{ :name => "description"}
-      %link{ :rel => "stylesheet", :href => "css/body/body_paragph.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/body_ul_gallery.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/body_ul.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/bodystyle.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/contact.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/events.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/footer.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/grid_img.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/grid_text.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/home.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/nav.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => "css/body/polo.css", :type => "text/css"}
-      %link{ :rel => "stylesheet", :href => 'https://fonts.googleapis.com/css?family=Work+Sans'}
-      %link{ :rel => "stylesheet", :href => 'https://fonts.googleapis.com/css?family=Roboto'}
-      %link{ :rel => "stylesheet", :href => 'https://fonts.googleapis.com/css?family=Montserrat'}
-      %link{ :rel => "stylesheet", :href => 'https://fonts.googleapis.com/css?family=Dosis'}
-      %link{ :rel => "stylesheet", :href => "https://use.fontawesome.com/releases/v5.4.1/css/all.css"}
+    %script{ :src => "https://code.jquery.com/jquery-1.9.1.min.js"}
+    %script{ :src => "js/barra_de_nav.js"}
+    %link{ :rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"}
+    %link{ :rel => "stylesheet", :href => "css/mobile.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/body_paragph.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/body_ul_gallery.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/body_ul.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/bodystyle.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/contact.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/events.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/footer.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/grid_img.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/grid_text.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/home.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/nav.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => "css/body/polo.css", :type => "text/css"}
+    %link{ :rel => "stylesheet", :href => 'https://fonts.googleapis.com/css?family=Work+Sans'}
+    %link{ :rel => "stylesheet", :href => 'https://fonts.googleapis.com/css?family=Roboto'}
+    %link{ :rel => "stylesheet", :href => 'https://fonts.googleapis.com/css?family=Montserrat'}
+    %link{ :rel => "stylesheet", :href => 'https://fonts.googleapis.com/css?family=Dosis'}
+    %link{ :rel => "stylesheet", :href => "https://use.fontawesome.com/releases/v5.4.1/css/all.css"}
 
       -# %link{ :rel => "stylesheet", :href => "css/mobile.css"}
       -# %script{:src => "js/mobile.js", :type => "text/javascript"}
@@ -26,7 +29,7 @@
   %body.encloser
     %nav.container
       %a.item{:href => "/index"}
-        %img{:src => "images/bk-wets-logo.jpg", :alt =>""}
+        %img.logo{:src => "images/bk-wets-logo.jpg", :alt =>""}
       %a.item{:href => "/index"} Home
       %a.item{:href => "/about"} About
       %a.item.selected{:href => "/women"} Women
@@ -35,6 +38,8 @@
         %i{:class => "fas fa-address-card fa-3x"}
       %a.item{:href => "/whiteboard"}
         %i{:class => "fas fa-volleyball-ball fa-3x"}
+    %a.barras{:class => "", :onclick => "expantion"}
+      %i{:class => "fa fa-bars fa-3x"}
   %div.container-a
   %div.container-a
     %p.text-item Our women's team is a combination of experienced and new players, nicknamed the Urban Dolphins. Our ladies like to play against the boys and against other women, scrimmaging with NYAC and Columbia. They also like to hand out outside of the pool (NO BOYS ALLOWED!).
@@ -42,4 +47,4 @@
     %h1.text-item Urban Dolphins
 
   %footer.container
-  2017 by Brooklyn Wets. All rights reserved.
+    2017 by Brooklyn Wets. All rights reserved.

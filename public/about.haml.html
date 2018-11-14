@@ -2,6 +2,10 @@
 %html
   %head
     %meta{ :name => "description"}
+      %script{ :src => "https://code.jquery.com/jquery-1.9.1.min.js"}
+      %script{ :src => "js/barra_de_nav.js"}
+      %link{ :rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"}
+      %link{ :rel => "stylesheet", :href => "css/mobile.css", :type => "text/css"}
       %link{ :rel => "stylesheet", :href => "css/body/body_paragph.css", :type => "text/css"}
       %link{ :rel => "stylesheet", :href => "css/body/body_ul_gallery.css", :type => "text/css"}
       %link{ :rel => "stylesheet", :href => "css/body/body_ul.css", :type => "text/css"}
@@ -24,9 +28,9 @@
       -# %script{:src => "js/mobile.js", :type => "text/javascript"}
     %title About - BK Wets
   %body.encloser
-    %nav.container
+    %nav.container{:id => "TopNav"}
       %a.item{:href => "/index"}
-        %img{:src => "images/bk-wets-logo.jpg", :alt =>""}
+        %img.logo{:src => "images/bk-wets-logo.jpg", :alt =>""}
       %a.item{:href => "/index"} Home
       %a.item.selected{:href => "/about"} About
       %a.item{:href => "/women"} Women
@@ -35,7 +39,9 @@
         %i{:class => "fas fa-address-card fa-3x"}
       %a.item{:href => "/whiteboard"}
         %i{:class => "fas fa-volleyball-ball fa-3x"}
-  %div.container-a      
+    %a.barras{:class => "", :onclick => "expantion"}
+      %i{:class => "fa fa-bars fa-3x", :onclick => "expantion"}
+  %div.container-a
   %div.container-a
     %img.item{:src => "/images/about1.jpg", :alt => "us"}
     %h1.text-item We Are the BK Wets
@@ -52,6 +58,5 @@
     %p.text-item We practice Saturdays 2-3:30PM at Metropolitan Rec Center in Williamsburg. We also have a more instructional beinnger friendly practice at Mondays at 6pm at the Gertrude Ederle Recreation Center.
     %h1.text-item Practice Times
     %img.item{:src => "/images/about4.png", :alt => "us"}
-
   %footer.container
     2017 by Brooklyn Wets. All rights reserved.

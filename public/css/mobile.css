@@ -1,29 +1,88 @@
 /* Website template by freewebsitetemplates.com */
-/*@media only screen and (min-width : 320px) and (max-width : 568px) {
-html {
-  -webkit-text-size-adjust: none;
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  a.item:not(:first-child) {display: none;}
+  a.barras {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    background: linear-gradient(90deg, white 0%, #dfe9f3 100%);
+  }
+  img.logo {
+    height: 99px;
+  }
+  a.text {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 25px;
+    color: black;
+    margin: 150px 20px 150px 20px;
+    padding: 20px 35px 0px 35px;
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+  }
+  a.text:hover{
+    background: linear-gradient(to top, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+    color: #000000;
+  }
+  nav.container{
+    display: flex;
+    justify-content: space-evenly;    
+    background: linear-gradient(90deg, white 0%, #dfe9f3 100%);
+    border-radius: 8px;
+    min-height: 40px;
+    padding: 40px;
+    width: 80%;
+  }
+
 }
-img {
-  max-width: 100%;
+@media screen and (min-width: 299px) and (max-width: 799px) {
+  div.container-a {
+    float: none;
+    width: 100%;
+  }
+  p.text-item {
+    float: none;
+    width: 90%;
+    background: linear-gradient(90deg, white 0%, #dfe9f3 100%);
+    align-self: center;
+    border-radius: 5px;
+    font-size: 23px;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    letter-spacing: 0.01em;
+    line-height: 28px;
+    text-align: left;
+    margin: 10px 2px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    opacity: 0.6;
+  }
+  h1.text-item {
+    float: none;
+    width: 100%;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 37px;
+    color: #04befe;
+    margin: 15px 15px 25px 16px;
+    padding: 45px 5px 15px 8px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  img.item {
+    float: none;
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+  }
 }
-#header {
-  width: 100%;
-}
-#header div {
-  min-height: 75px;
-  padding: 0;
-  width: 100%;
-}
-#header div ul {
-  width: 100%;
-}
+
+/*
 #header div a.logo {
   display: block;
     float: left;
     height: auto;
    margin: 5% 0 2% 8%;
     padding: 0;
-    width: 40%;
+    width: 40;
 }
 #header span#mobile-navigation {
   background: transparent url(../images/mobile/mobile-menu.png) no-repeat;

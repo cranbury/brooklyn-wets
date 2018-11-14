@@ -2,6 +2,13 @@
 %html
   %head
     %meta{ :name => "description"}
+      %script{:src =>"https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"}
+      %script{:src =>"https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"}
+      %link{:rel => "stylesheet" :href => "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"}
+      %script{ :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+      %script{ :src => "https://code.jquery.com/jquery-1.9.1.min.js"}
+      %script{ :src => "js/barra_de_nav.js"}
+      %link{ :rel => "stylesheet", :href => "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"}
       %link{ :rel => "stylesheet", :href => "css/mobile.css", :type => "text/css"}
       %link{ :rel => "stylesheet", :href => "css/body/body_paragph.css", :type => "text/css"}
       %link{ :rel => "stylesheet", :href => "css/body/body_ul_gallery.css", :type => "text/css"}
@@ -23,27 +30,13 @@
 
       -# %link{ :rel => "stylesheet", :href => "css/mobile.css"}
       -# %script{:src => "js/mobile.js", :type => "text/javascript"}
-    %title Events - BK Wets
-  %body.encloser
-    %nav.container
-      %a.item{:href => "/index"}
-        %img.logo{:src => "images/bk-wets-logo.jpg", :alt =>""}
-      %a.item{:href => "/index"} Home
-      %a.item{:href => "/about"} About
-      %a.item{:href => "/women"} Women
-      %a.item.selected{:href => "/events"} Events
-      %a.item{:href => "/contact"}
-        %i{:class => "fas fa-address-card fa-3x"}
-      %a.item{:href => "/whiteboard"}
-        %i{:class => "fas fa-volleyball-ball fa-3x"}
-    %div.container-a
-    %div.container-a
-      %p.text-item
-        %strong Outdoor Tournament at
-      %p.text-item LAKE MOHAWK
-      %p.text-item JUNE 17-18, 2017
-  %div.container-a
-    %img.item{:src => "/images/events1.png", :alt => "us"}
-    %a.text{:href => "http://www.lakemohawkpool.com"} Lake Mohawk Pool
-  %footer.container
-    2017 by Brooklyn Wets. All rights reserved.
+    %title Whiteboard
+
+    /* jQuery UI Touch Punch 0.2.3
+    /*
+    /* Copyright 2011–2014, Dave Furfero
+    /* Dual licensed under the MIT or GPL Version 2 licenses.
+    /*
+    /* Depends:
+    /*  jquery.ui.widget.js
+    /*  jquery.ui.mouse.js

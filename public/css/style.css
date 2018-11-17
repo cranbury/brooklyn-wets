@@ -664,28 +664,35 @@ img {
 #footer {
   background-color: #111111;
   margin: 0;
-  min-height: 122px;
   padding: 0;
   width: 100%;
 }
-#footer div {
-  margin: 0 auto;
-  max-width: 940px;
-  overflow: hidden;
-  padding: 47px 10px 42px;
+#footer .social-media {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0 10px;
+}
+i.fa {
+  font-size:48px;
+  color:white;
+}
+#footer .mark {
+  padding: 5px 0;
 }
 #footer div p {
   color: #FFFFFF;
-  float: left;
+  /* float: left; */
   font-family: Arial;
   font-size: 15px;
   font-weight: normal;
   line-height: 15px;
   margin: 0;
   padding: 5px 0 0;
-  text-align: left;
+  /* text-align: left; */
   text-transform: none;
-  width: 400px;
+  width: 100%;
+  text-align: center;
 }
 #footer div .connect {
   display: block;
@@ -743,4 +750,9 @@ ul.women li {
   padding: 18px 0 0;
   text-align: center;
   width: 611px;
+}
+@media only screen and (max-width: 426px) {
+  #footer div p {
+    font-size: 12px;
+  }
 }

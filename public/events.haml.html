@@ -25,7 +25,7 @@
       -# %script{:src => "js/mobile.js", :type => "text/javascript"}
     %title Events - BK Wets
   %body.encloser
-    %nav.container
+    %nav.container{:id => "TopNav"}
       %a.item{:href => "/index"}
         %img.logo{:src => "images/bk-wets-logo.jpg", :alt =>""}
       %a.item{:href => "/index"} Home
@@ -36,6 +36,8 @@
         %i{:class => "fas fa-address-card fa-3x"}
       %a.item{:href => "/whiteboard"}
         %i{:class => "fas fa-volleyball-ball fa-3x"}
+    %a.barras{:class => "", :onclick => "expantion"}
+      %i{:class => "fa fa-bars fa-3x", :onclick => "expantion"}
     %div.container-a
     %div.container-a
       %p.text-item

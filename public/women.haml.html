@@ -27,19 +27,24 @@
       -# %script{:src => "js/mobile.js", :type => "text/javascript"}
     %title  Women - BK Wets
   %body.encloser
-    %nav.container{:id => "TopNav"}
-      %a.item{:href => "/index"}
-        %img.logo{:src => "images/bk-wets-logo.jpg", :alt =>""}
-      %a.item{:href => "/index"} Home
-      %a.item{:href => "/about"} About
-      %a.item.selected{:href => "/women"} Women
-      %a.item{:href => "/events"} Events
-      %a.item{:href => "/contact"}
-        %i{:class => "fas fa-address-card fa-3x"}
-      %a.item{:href => "/whiteboard"}
-        %i{:class => "fas fa-volleyball-ball fa-3x"}
-    %a.barras{:class => "", :onclick => "expantion"}
-      %i{:class => "fa fa-bars fa-3x"}
+    %ul.container
+      %li
+        %a.item{:href => "/index"}
+          %img.logo{:src => "images/bk-wets-logo.jpg", :alt =>""}
+      %li
+        %a.item{:href => "/index"} Home
+      %li
+        %a.item{:href => "/about"} About
+      %li
+        %a.item.selected{:href => "/women"} Women
+      %li
+        %a.item{:href => "/events"} Events
+      %li
+        %a.item{:href => "/contact"}
+          %i{:class => "fas fa-address-card fa-3x"}
+      %li
+        %a.item{:href => "/whiteboard"}
+          %i{:class => "fas fa-volleyball-ball fa-3x"}
   %div.container-a
   %div.container-a
     %p.text-item Our women's team is a combination of experienced and new players, nicknamed the Urban Dolphins. Our ladies like to play against the boys and against other women, scrimmaging with NYAC and Columbia. They also like to hand out outside of the pool (NO BOYS ALLOWED!).

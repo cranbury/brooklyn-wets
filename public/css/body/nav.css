@@ -9,7 +9,7 @@
   background: linear-gradient(90deg, white 0%, #dfe9f3 100%);
   border-radius: 8px;
   min-height: 40px;
-  padding: 40px;
+  padding: 20px;
   width: inherit;
 }
 
@@ -31,11 +31,7 @@ a.item {
   letter-spacing: 0.1em;
 }
 
-a.barras {
-  display: none;
-}
-
-nav a.selected, body nav a:hover {
+  li a.selected, body ul a:hover {
   color: rgb(245,218,41);
 }
 }

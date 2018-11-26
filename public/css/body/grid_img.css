@@ -22,7 +22,7 @@ div.container-a{
   grid-gap: 20px;
   align-items: start;
   justify-content: start;
-  margin: 0px 0px 600px 30;
+  margin: 5px 0px 600px 30;
   padding: 10px 20px 0px 80px;
   border-radius: 5px;
 }

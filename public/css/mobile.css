@@ -1,22 +1,33 @@
 /* Website template by freewebsitetemplates.com */
-@media screen and (min-width: 300px) and (max-width: 800px) {
-  a.item:not(:first-child) {display: none;}
-  a.item.expand{
-   position: absolute;
-   right: 0;
-   top: 0;
+@media screen and (min-width: 300px) and (max-width: 799px) {
+  li a.item {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    width: 100%;
+    margin: 28px 0px 15px 34px;
+    align-content: center;
   }
-
-  a.barras {
-    display: flex;
+  ul.container {
+    border-radius: 8px;
+    padding: 20px;
     justify-content: space-evenly;
-    margin: 0px 0px 0px 0px;
-    padding: 20px 20px 20px 20px;
+    align-items: center;
     background: linear-gradient(90deg, white 0%, #dfe9f3 100%);
   }
   img.logo {
     height: 99px;
+    margin: 0px 20px 20px 15px;
   }
+
+  a.item.selected, ul a:hover {
+    color: rgb(245,218,41);
+  }
+
   a.text {
     font-family: 'Roboto';
     font-weight: 300;

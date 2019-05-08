@@ -1,0 +1,8 @@
+{
+  "name": "brooklyn-wets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cranbury/brooklyn-wets.git",
+  "author": "Maxiel Camargo <maxielcamargo@gmail.com>",
+  "license": "MIT"
+}

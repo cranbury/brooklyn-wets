@@ -7,7 +7,7 @@ padding-bottom: 29px;
     padding: 3rem 0 7rem;
     position: relative;
     background-color: #1d1d1b;
-    background-image: url(/public/images/bk-home.jpg),linear-gradient(-10deg,rgb(0, 0, 0) 0%,#0000 100%);
+    background-image: url(/public/images/bk-home.jpg), linear-gradient(-10deg, #272727 0%, #0000 100%);
     background-size: cover;
     z-index: 0;
     .shape {
@@ -84,3 +84,7 @@ padding-bottom: 29px;
   @media (min-width: 576px) {
     .jumbotron {
       padding: 4rem 2rem; } }
+
+.row {
+  margin: 15px;
+}

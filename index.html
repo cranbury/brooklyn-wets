@@ -227,8 +227,8 @@
 
     <!-- Footer Links -->
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© Brooklyn Wets. All rights reserved 2019. Design and code by:
-      <a href="https://www.bogotadev.com/"> BogotaDev</a>
+    <div class="footer-copyright text-center py-3">© Brooklyn Wets. All rights reserved 2019. Design and code by
+      <a href="https://www.bogotadev.com/">BogotaDev</a>
     </div>
     <!-- Copyright -->
   </footer>
@@ -246,7 +246,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="public/js/ekko-lightbox.min.js"></script>
+  <script src="public/js/ekko-lightbox.min.js.map"></script>
   <script src="public/js/customjs.js"></script>
+  <script>$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});</script>
 </body>
 
 </html>

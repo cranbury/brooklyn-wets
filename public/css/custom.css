@@ -29,7 +29,6 @@
 header {
   position: relative;
   background-color: black;
-  height: 75vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -68,7 +67,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("/public/images/polo1.jpg") black no-repeat center center scroll;
+    background: url("/public/images/video_home.mp4") black no-repeat center center scroll;
   }
 
   header video {
@@ -89,6 +88,38 @@ header .overlay {
 }
 .row {
   margin: 15px;
+}
+
+@media (min-width: 360px) {
+  .col-md-3 {
+    margin: 2rem 0rem;
+  }
+}
+@media (min-width: 360px) {
+  .font-weight-bold {
+    font-size: 45px;
+  }
+}
+@media (min-width: 360px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+.mailchimp {
+  background-color: #dd3d31;
+  background-size: cover;
+  background-image: url(/assets/img/overlay.svg), linear-gradient(45deg, #dd3d31 0%, #d22f23 100%);
+  color: #fff;
+  padding: 5rem 0;
+}
+
+.product-image {
+  box-shadow: 0 29px 32px -20px rgba(0, 0, 0, 0.5);
+  margin: 9vh auto 30px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=custom.css.map */

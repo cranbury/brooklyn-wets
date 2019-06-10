@@ -22,6 +22,11 @@ padding-bottom: 29px;
     }
 }
 
+.masthead .masthead-cards {
+  position: relative;
+  z-index: 1;
+}
+
 .block2{
   color: white;
   padding: 7rem 0 7rem;

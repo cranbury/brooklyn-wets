@@ -81,7 +81,7 @@ padding-bottom: 29px;
       background: url('/public/images/video_home.mp4') black no-repeat center center scroll;
     }
     header video {
-      display: none;
+      background: url('/public/images/video_home.mp4') black no-repeat center center scroll;
     }
   }
   
@@ -172,11 +172,14 @@ padding-bottom: 29px;
 /*---------------*/
 
 figure.effect-lily img {
+  /*--------
   margin-left: 30px;
 	max-width: none;
 	width: -webkit-calc(60% + 50px);
-	width: calc(60% + 50px);
-  padding: 10px 10px;
+	width: calc(60% + 10px);
+  padding: 10px 10px;-------*/
+  height: 350px;
+  width: 350px;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(1.15);
@@ -185,7 +188,9 @@ figure.effect-lily img {
   border-radius: 5%;
 }
 
-
+.texbox{
+  width: 1000px !important;
+}
 
 figure.effect-lily:hover img,
 figure.effect-lily:hover p {
@@ -217,4 +222,35 @@ figure.effect-ruby:hover img {
 	opacity: 0.5;
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+/* Responsive iFrame */
+.responsive-iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Eventcont {
+  color: white;
+  padding: 0rem 0 7rem;
+  position: relative;
+}
+
+.jumbotron-events{
+padding: 7rem 1rem;
+margin-bottom: -6rem;
+background-color: white;
+border-radius: 0.3rem;
 }

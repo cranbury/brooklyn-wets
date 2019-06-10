@@ -16,64 +16,7 @@
       <script src="js/jquery-ui.custom.min.js"></script>
   <script src="js/fullcalendar.js"></script>
   <script src="js/customjs.js"></script>
-  <style>
-  
-    body {
-      margin-top: 40px;
-      text-align: center;
-      font-size: 14px;
-      font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
-      background-color: #DDDDDD;
-      }
-  
-    #wrap {
-      width: 1100px;
-      margin: 0 auto;
-      }
-  
-    #external-events {
-      float: left;
-      width: 150px;
-      padding: 0 10px;
-      text-align: left;
-      }
-  
-    #external-events h4 {
-      font-size: 16px;
-      margin-top: 0;
-      padding-top: 1em;
-      }
-  
-    .external-event { /* try to mimick the look of a real event */
-      margin: 10px 0;
-      padding: 2px 4px;
-      background: #3366CC;
-      color: #fff;
-      font-size: .85em;
-      cursor: pointer;
-      }
-  
-    #external-events p {
-      margin: 1.5em 0;
-      font-size: 11px;
-      color: #666;
-      }
-  
-    #external-events p input {
-      margin: 0;
-      vertical-align: middle;
-      }
-  
-    #calendar {
-  /* 		float: right; */
-          margin: 0 auto;
-      width: 900px;
-      background-color: #FFFFFF;
-        border-radius: 6px;
-          box-shadow: 0 1px 2px #C3C3C3;
-      }
-  
-  </style>
+ 
   <title>Brooklyn Wets</title>
 </head>
 
@@ -126,13 +69,19 @@
   <!-- Nav-->
 
   <!-- Content-->
-  <div id='wrap'>
-
-    <div id='calendar'></div>
-    
-    <div style='clear:both'></div>
+  <div class="container">
+      <section class="text-center jumbotron-events">
+          <div class="container">
+            <h2 class="display-3 font-weight-bold text-pad">¡Practice Water Polo with us!</h2>
+            <p class="lead text-muted text-pad">There's always something going on in Brooklyn West! Plan your practice.</p>
+          </div>
+      </section>
+  <div class="Eventcont">
+  <div class="responsive-iframe-container big-container">
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FBogota&amp;src=YWlqcTZoa3BxbTNtZHJ1cm83M2ptbXQ5ZDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;mode=AGENDA&amp;showPrint=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
-    
+    </div>
+  </div>
   <!-- Content-->
 
 

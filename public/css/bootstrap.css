@@ -9679,9 +9679,14 @@ h3 {
   border-radius: 78% 22% 77% 23%/29% 66% 34% 71%;
 }
 
+.masthead .masthead-cards {
+  position: relative;
+  z-index: 1;
+}
+
 .block2 {
   color: white;
-  padding: 7rem 0 7rem;
+  padding: 10rem 0 0rem;
   position: relative;
   background-color: #1d1d1b;
   background-image: url(/public/images/bk-home.jpg), linear-gradient(-10deg, #272727 0%, #0000 100%);
@@ -9695,6 +9700,22 @@ h3 {
 
 header {
   position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+article {
   background-color: black;
   height: 75vh;
   min-height: 25rem;
@@ -9739,7 +9760,7 @@ header .overlay {
   }
 
   header video {
-    display: none;
+    background: url("/public/images/video_home.mp4") black no-repeat center center scroll;
   }
 }
 .jumbotron-home {
@@ -9773,7 +9794,7 @@ header .overlay {
     text-align: center;
   }
 }
-.mailchimp {
+.calltoaction {
   background-color: #dd3d31;
   background-size: cover;
   background-image: url(/assets/img/overlay.svg), linear-gradient(45deg, #303030 0%, #7b797c 100%);
@@ -9825,17 +9846,24 @@ header .overlay {
 /***** Lily *****/
 /*---------------*/
 figure.effect-lily img {
-  margin-left: 30px;
+  /*--------
+   margin-left: 30px;
   max-width: none;
   width: -webkit-calc(60% + 50px);
-  width: calc(60% + 50px);
-  padding: 10px 10px;
+  width: calc(60% + 10px);
+   padding: 10px 10px;-------*/
+  height: 350px;
+  width: 350px;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(1.15);
   transform: scale(1.15);
   box-shadow: 0 29px 32px -20px rgba(0, 0, 0, 0.5);
   border-radius: 5%;
+}
+
+.texbox {
+  width: 1000px !important;
 }
 
 figure.effect-lily:hover img,
@@ -9866,6 +9894,139 @@ figure.effect-ruby:hover img {
   opacity: 0.5;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+/* Responsive iFrame */
+.responsive-iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Eventcont {
+  color: white;
+  padding: 0rem 0 7rem;
+  position: relative;
+}
+
+.jumbotron-events {
+  padding: 7rem 1rem;
+  margin-bottom: -6rem;
+  background-color: white;
+  border-radius: 0.3rem;
+}
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+  width: 100%;
+  position: relative;
+  background-color: #1d1d1b;
+  background-image: url(/public/images/bk-home.jpg), linear-gradient(-10deg, #272727 0%, #0000 100%);
+  background-size: cover;
+  padding: 120px 0 120px 0;
+}
+
+#intro .intro-img {
+  width: 50%;
+  float: right;
+}
+
+#intro .intro-info {
+  width: 50%;
+  float: left;
+  margin-top: 120px;
+}
+
+#intro .intro-info h2 span {
+  color: #74b5fc;
+  text-decoration: underline;
+}
+
+#intro .intro-info .btn-get-started,
+#intro .intro-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+
+#intro .intro-info .btn-get-started {
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
+}
+
+#intro .intro-info .btn-get-started:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+#intro .intro-info .btn-services {
+  border: 2px solid #fff;
+}
+
+#intro .intro-info .btn-services:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  #intro {
+    padding: 60px 0 60px 0;
+  }
+
+  #intro .intro-img {
+    width: 80%;
+    float: none;
+    margin: 0 auto 25px auto;
+  }
+
+  #intro .intro-info {
+    width: 80%;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+responsive-iframe-container .agenda .date-label {
+  font-weight: bold;
+  background: black !important;
+  position: relative;
+}
+
+responsive-iframe-container .view-container-border {
+  clear: right;
+  padding: 0 8px;
+  position: relative;
+  zoom: 1;
+  background: black !important;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

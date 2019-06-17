@@ -386,3 +386,18 @@ responsive-iframe-container .view-container-border {
   background: black!important;
 
 }
+
+.map-container{
+  overflow:hidden;
+  margin-bottom: 70px;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:300px;
+  width:100%;
+  position:absolute;
+  }
+

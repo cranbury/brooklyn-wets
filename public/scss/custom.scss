@@ -4,7 +4,7 @@ padding-bottom: 29px;
 
 .masthead {
     color: white;
-    padding: 3rem 0 7rem;
+    padding: 2rem 0 2rem;
     position: relative;
     background-color: #1d1d1b;
     background-image: url(/public/images/bk-home.jpg), linear-gradient(-10deg, #272727 0%, #0000 100%);
@@ -139,7 +139,7 @@ article {
  .calltoaction {
   background-color: #dd3d31;
   background-size: cover;
-  background-image: url(/assets/img/overlay.svg), linear-gradient(45deg, #303030 0%, #7b797c 100%);
+  background-image: url(/assets/img/overlay.svg), linear-gradient(45deg, #303030 0%, #000000 100%);
   color: #fff;
   padding: 5rem 0;
   font-size: 1.2rem;}
@@ -296,9 +296,9 @@ background-image: url(/public/images/bk-home.jpg), linear-gradient(-10deg, #2727
 }
 
 #intro .intro-info {
-  width: 50%;
+  width: 46%;
   float: left;
-  margin-top: 120px;
+  margin-top: 0px;
 }
 
 #intro .intro-info h2 span {
@@ -389,7 +389,7 @@ responsive-iframe-container .view-container-border {
 
 .map-container{
   overflow:hidden;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
   position:relative;
   height:0;
   }
@@ -438,4 +438,9 @@ responsive-iframe-container .view-container-border {
     }
   }
 
-  
+  @media (max-width: 740px) {
+    #intro-section {
+        height: 100vh;
+    }
+}
+

@@ -7598,7 +7598,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 2rem 0 2rem;
   position: relative;
   background-color: #1d1d1b;
-  background-image: url(/public/images/bk-home.jpg), linear-gradient(-10deg, #272727 0%, #0000 100%);
+  
   background-size: cover;
   z-index: 0; }
   .masthead .shape {
